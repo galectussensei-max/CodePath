@@ -1,0 +1,19 @@
+# Example local Judge0 CE configuration for CodePath.
+# Copy this file to judge0.conf before starting the Judge0 services.
+# These credentials are intended only for a local Docker network.
+# Replace them before using Judge0 in any shared or production environment.
+
+JUDGE0_TELEMETRY_ENABLE=false
+USE_DOCS_AS_HOMEPAGE=true
+
+REDIS_HOST=redis
+REDIS_PORT=6379
+REDIS_PASSWORD=change_this_local_redis_password
+
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
+POSTGRES_DB=judge0
+POSTGRES_USER=judge0
+POSTGRES_PASSWORD=change_this_local_database_password
+
+RAILS_ENV=production

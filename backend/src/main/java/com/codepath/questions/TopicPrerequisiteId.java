@@ -1,0 +1,26 @@
+package com.codepath.questions;
+
+import java.io.Serializable;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Embeddable;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Embeddable
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@EqualsAndHashCode
+public class TopicPrerequisiteId implements Serializable {
+
+    @Column(name = "topic_id")
+    private Long topicId;
+
+    @Column(name = "prerequisite_topic_id")
+    private Long prerequisiteTopicId;
+}
