@@ -50,7 +50,7 @@ git clone https://github.com/galectussensei-max/CodePath.git
 cd CodePath
 ```
 
-Replace galectussensei-max with the GitHub account that hosts the repository.
+
 
 ### 2. Start PostgreSQL
 
@@ -225,7 +225,7 @@ CodePath/
 └── README.md
 ```
 
-The generated folders `frontend/node_modules/`, `frontend/dist/`, and `backend/target/` are intentionally excluded from version control. Install dependencies and regenerate build output using the commands in this README.
+**Install dependencies and regenerate build output using the commands in this README.
 
 ## Security and configuration notes
 
